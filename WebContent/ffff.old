@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<title>PROXIBANK V2</title>
+<head>
+<link rel="stylesheet" href="style.css" />
+<meta charset="utf-8" />
+</head>
+<body>
+
+	<div class="main">
+		<p class="enteteForm">--- Interface utilisateur ---</p>
+		
+			<form method="post" action="BankServlet">
+		<div id="formulaire">
+			 <fieldset>
+				identifiant?: <input type="text" name="inputpseudo" maxlength =10 Required ><br> 
+				mot de passe <input name="mdp" type="password"><br> 
+                
+			 </fieldset>
+	   </div>
+				<input type="Submit" value="soum"> 
+		
+		</form>
+		</div>
+
+</body>
+</html>
